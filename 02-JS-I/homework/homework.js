@@ -62,16 +62,15 @@ function sonIguales(x, y) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (x == y) { return true;  }
-  return false; 
+  else return false; 
 }
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-   if ((str1 . length)  == (str2 . length)) 
-    { return true; }
-  return false; 
+   if ((str1 . length)  == (str2 . length))   { return true; }
+   else return false; 
   
 }
 
@@ -79,18 +78,16 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num < 90)
-  { return true;}
-  return false;
+  if (num < 90) { return true;}
+  else return false;
 }
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num > 50)
-  {return true;}
-  return false;
+  if (num > 50) {return true;}
+  else return false;
 }
 
 function obtenerResto(x, y) {
@@ -103,18 +100,16 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if ((num % 2) == 0)
-  {return true;}
-  return false;
+  if ((num % 2) == 0) {return true;}
+  else return false;
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if ((num % 2) > 0)
-  {return true;}  
-  return false;
+  if ((num % 2) > 0) {return true;}  
+  else return false;
 }
 
 function elevarAlCuadrado(num) {
@@ -134,7 +129,6 @@ function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
   return Math.pow (num , exponent);
-  
 }
 
 function redondearNumero(num) {
@@ -160,22 +154,19 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if (numero > 0) { 
-  console.log('Es positivo')
-  }
-  if (numero < 0)  {
-  console.log('Es negativo')
-  }
-  if (numero == 0)
-  { return false; }
-  
+  var signo = '';
+  if (numero > 0) { signo = 'Es positivo'; return signo;}
+  else 
+    if (numero < 0) {signo = 'Es negativo'; return signo;}
+    else 
+      if (numero == 0){ return false; }
 }
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-   return str+'!';
+   return str + '!';
 }
 
 function combinarNombres(nombre, apellido) {
@@ -228,11 +219,12 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
- 
-
+  var resultado = '';
+  if (letra.length > 1) {resultado = 'Dato incorrecto'; return resultado;}
+     else if (letra.length == 1) 
+         if (letra=='a'||letra=='e'||letra=='i'||letra=='o'||letra=='u') {resultado = 'Es vocal'; return resultado; }
+  else  {resultado = 'Dato incorrecto'; return(resultado);}
 }
-
-
 
 // No modificar nada debajo de esta línea
 // --------------------------------
@@ -271,4 +263,4 @@ module.exports = {
   areaDelTriangulo,
   deEuroAdolar,
   esVocal,
-};
+}
