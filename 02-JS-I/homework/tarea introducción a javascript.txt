@@ -1,0 +1,12 @@
+Variables: son como cajitas que sirven para guardar algo que voy a usar después.
+
+Instrumentos de cuerda: objetos que sirven para hacer sonidos tocando cuerdas.
+
+Funciones (argumentos, return): una función es algo que sirve para abrir las cajitas 
+                                que yo quiera para quitar o agregar cosas dentro y después mostrarlas. 
+
+Declaraciones if: es una pregunta para saber si algo es verdadero o falso.
+
+Valores booleanos ( true, false): se usa cuando abro una cajita y te pregunto si tiene algo
+                                  dentro. Solo puede haber dos respuestas. SI o NO.
+                                  SI es verdadero y NO es falso.  
