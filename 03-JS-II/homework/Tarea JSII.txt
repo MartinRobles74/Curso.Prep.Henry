@@ -1,0 +1,21 @@
+"&&" estos dos símbolos juntos se usan cuando queremos hacer algo sólo si dos condiciones son ciertas. 
+Por ejemplo: queres salir a jugar con tus amigos y te dejan solo si terminaste la tarea y ordenaste tus cosas.
+Si terminaste la terea y no ordenaste no te dejan salir. 
+Si no terminaste la tarea y ordenaste tus cosas no te dejan salir.
+Jugar es lo que quieres hacer y terminar la tarea y ordenar son las condiciones.
+
+"||" estos dos símbolos juntos se usan cuando queremos hacer algo y alcanza con que solo una condición sea cierta. 
+Mismo ejemplo: queres salir a jugar con tus amigos y te dejan si ordenaste tus cosas O terminaste la tarea.
+Si terminaste la terea y no ordenaste te dejan salir. 
+Si no terminaste la tarea y ordenaste tus cosas te dejan salir.
+Jugar es lo que quieres hacer y, ordenar O terminar la tarea son las condiciones.
+
+"!" este símbolo significa NO y se usa cuando queremos que algo cierto sea falso y algo falso sea cierto.
+Por ejemplo: Si dices " terminé la tarea" y usas este símbolo antes dirás, "NO terminé la tarea".
+Si dices "NO terminé la tarea" y usas este símbolo antes dirás, "terminé la tarea".
+
+"For" es una estructura que sirve para controlar una acción repetitiva.
+Por ejemplo: te mandan a poner 6 platos en la mesa y te piden que los lleves de a uno para no romperlos.
+Para asegurarse de que lo hagas bien, tu hermano te va a controlar y para eso anotará tres datos en un papel. 
+Primero anotará que hay 0 platos en la mesa , segundo, que buscarás platos mientras haya menos de 6 en la mesa y tercero sumar un plato a la mesa.
+Tu hermano sería como un FOR.
