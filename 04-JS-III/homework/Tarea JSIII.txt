@@ -1,0 +1,6 @@
+Un ARRAY es como una caja, esta vez, con divisiones en su interior. Donde podemos guardar no solo muchos datos.
+Por ejemplo: si queremos guardar todos los nombres de los alumnos de una clase, los podemos poner
+dentro de una caja que se llame "clase de programación". La caja tendrá tantas divisiones como nombres en la lista.
+Podemos buscar un alumno por el número de orden en la lista o por su nombre. Si no sabemos en que orden 
+está, podemos revisar toda la lista hasta encontrarlo. Si el alumno es nuevo podemos agregarlo.
+También podemos borrar un alumno que se va de la clase.
