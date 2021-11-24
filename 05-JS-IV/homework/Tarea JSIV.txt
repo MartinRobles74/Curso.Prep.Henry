@@ -1,0 +1,11 @@
+* Un objeto es como una caja que puede guardar mucha información de una sola cosa.
+Por ejemplo, si el objeto se llama "Alumno", toda la información que contenga será sobre ese alumno.
+* Una propiedad del objeto es un nombre que identifica a uno de los datos que forman parte de este.
+Por ejemplo el objeto "Alumno" puede tener una propiedad llamada "nombre" o "edad".
+* Un método es una serie de pasos que se realizan para devolver un valor dentro del objeto.
+* Un bucle "For ... in" es una herramienta que podemos usar cuando, por ejemplo, no sabemos que información contiene el objeto "Alumno#.
+Esta herramienta va a ir dato por dato, "nombre" , "edad" , etc. y podremos mostrarlo.
+*  La notación de puntos quiere decir que puedo mostrar un dato del objeto "Alumno" que ya sé que existe, por ejemplo, "alumno.nombre" muestra el dato que se guardó
+como nombre. Y así con cualquier dato.
+Ahora, si no sé si existe el dato que quiero ver puedo usar los corchetes " [ ] ", por ejemplo, si quiero ver el email del alumno 
+alumno[email], si existe lo muestra y si no, me dice que ese dato no está definido.
