@@ -64,9 +64,13 @@ function agregarStringInvertida() {
       this.edad = edad
       this.domicilio = domicilio
 
-      constructor.prototype.metodo = function () {
-        return Persona;
-      }
+     
+    }
+    detalle = function () {
+      return 'Nombre: ' + this.nombre;
+      return 'Apellido: ' + this.apellido;
+      return 'Edad: ' + this.edad;
+      return 'Domicilio: ' + this.domicilio;
     }
   }
 
